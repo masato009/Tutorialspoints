@@ -3,75 +3,110 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
-  body{
-      margin: auto;
-  }
-  body{
-      background-color: rgb(83, 83, 76);
-  }
- 
-  li{
+}
+
+li a:hover {
+    background-color: #3d3d3d;
+}
+
+body {
+    margin: auto;
+}
+
+body {
+    background-color: rgb(190, 190, 0);
+}
+
+form,
+h2 {
+    text-align: center;
+
+}
+
+li {
     width: 25%;
-  }
-  .big{
+}
+
+.big {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     gap: auto;
     margin-left: 100px;
     margin-right: 100px;
 
-  }
-  .big img{
+}
+
+.big img {
     width: 140px
-  }
-  
-  .not{
+}
+
+.not {
     align-items: center;
     padding: 60px;
     padding-bottom: 20px;
     margin: 20px;
     text-align: center;
-    border:1px solid #00000031;
-  }
-  .note{
+    border: 1px solid #00000031;
+}
+
+.note {
     align-items: center;
     padding: 60px;
     padding-bottom: 20px;
     margin: 20px;
     text-align: center;
-    border:1px solid #00000031;
-  }
-  .are{
+    border: 1px solid #00000031;
+}
+
+.are {
     align-items: center;
     padding: 60px;
     padding-bottom: 20px;
     margin: 20px;
     text-align: center;
-    border:1px solid #00000031;
-  }
-  .ten{
+    border: 1px solid #00000031;
+}
+
+.ten {
     border: 1px solid #252f86;
     padding: 4px;
     border-radius: 6px;
     background-color: #1c257a;
     color: #fff;
-  }
-  a{
+}
+
+a {
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif,unset;
+    font-family: Arial, Helvetica, sans-serif, unset;
     text-decoration: none;
-  }
+}
+
+
+body {
+    margin: auto;
+}
+
+h1,
+h2,
+h5 {
+    text-align: center;
+}
+
+
+form {
+    text-align: center;
+    margin: auto;
+}
