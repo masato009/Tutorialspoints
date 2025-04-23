@@ -30,17 +30,12 @@ body {
     background-color: rgb(190, 190, 0);
 }
 
-h1,
-h2,
-h5 {
+form,
+h2 {
     text-align: center;
+
 }
 
 li {
-    width: 16.66666666666666666667%;
-}
-
-form {
-    text-align: center;
-    margin: auto;
+    width: 20%;
 }
