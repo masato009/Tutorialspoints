@@ -110,3 +110,11 @@ form {
     text-align: center;
     margin: auto;
 }
+
+a:hover,a:visited{
+    color: #b40000;
+}
+
+a:active{
+    color: #fff;
+}
